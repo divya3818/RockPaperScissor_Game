@@ -30,7 +30,7 @@ const showWinner = (userwin, userChoice, compChoice) => {
     } else {
         compScore++;
         compScorePara.innerText = compScore;
-        console.log("you lose");
+        //console.log("you lose");
         msg.innerText = `you lose. Your ${compChoice} beats ${userChoice}`;
         msg.style.backgroundColor = "red";
     }
